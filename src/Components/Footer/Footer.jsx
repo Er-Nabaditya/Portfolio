@@ -1,5 +1,11 @@
-import React from 'react'
-import { FaGithub, FaLinkedin, FaEnvelope, FaMapMarkerAlt, FaInstagram } from 'react-icons/fa'
+import React from "react";
+import {
+  FaGithub,
+  FaLinkedin,
+  FaEnvelope,
+  FaMapMarkerAlt,
+  FaInstagram,
+} from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -7,20 +13,25 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center md:items-start justify-between gap-8">
         {/* About & Address */}
         <div className="flex-1 flex flex-col items-center md:items-start text-center md:text-left">
-          <h3 className="text-amber-300 font-bold text-lg mb-2">Nabaditya Bhutia</h3>
+          <h3 className="text-amber-300 font-bold text-lg mb-2">
+            Nabaditya Bhutia
+          </h3>
           <p className="text-gray-300 text-sm mb-2">
             Bhubaneswar, Odisha, India
           </p>
           <p className="text-gray-300 text-sm mb-2">
-            <span className="font-semibold text-amber-300">Current Location:</span> Mumbai, Maharashtra
+            <span className="font-semibold text-amber-300">
+              Current Location:
+            </span>{" "}
+            Mumbai, Maharashtra
           </p>
           <p className="flex items-center justify-center md:justify-start text-gray-400 text-sm mb-2">
             <FaEnvelope className="mr-2 text-amber-300" />
-            nabaditya.bhutia@email.com
+            bhutianabaditya@gmail.com
           </p>
           <p className="flex items-center justify-center md:justify-start text-gray-400 text-sm">
             <FaMapMarkerAlt className="mr-2 text-amber-300" />
-            Address: 123 Main Street, Bhubaneswar, Odisha
+            Address: Pitiri,Parjang,Dhenkanal,Odisha
           </p>
         </div>
         {/* Services */}
@@ -37,7 +48,8 @@ const Footer = () => {
         {/* Moto & Social Links */}
         <div className="flex-1 flex flex-col items-center md:items-end">
           <p className="italic text-gray-300 text-center max-w-xs mb-3 mt-10">
-            "Turning ideas into reality through code and creativity. Let's build something amazing together!"
+            "Turning ideas into reality through code and creativity. Let's build
+            something amazing together!"
           </p>
           <div className="flex space-x-5 ">
             <a
@@ -84,6 +96,6 @@ const Footer = () => {
         </div>
       </div>
     </footer>
-  )
-}
+  );
+};
 export default Footer;
